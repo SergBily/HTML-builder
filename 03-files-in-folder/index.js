@@ -31,25 +31,3 @@ async function outInfo(file) {
   }
   stdout.write(`${name} - ${ext} - ${size}\n`);
 }
-
-
-
-
-// async function getInfo(file) {
-  
-// }
-// async function getSizeFiles() {
-//   try {
-//     const files = await fsPromises.readdir(goalFolder);
-//     for (const file of files) {
-//       const pathFile = path.join(__dirname, `secret-folder/${file}`);
-//       const statFiles = await fsPromises.stat(pathFile);
-//       if (statFiles.isFile()) {
-//         console.log(file);
-//       }
-//     }
-//     console.log(files);
-//   } catch (error) {
-//     console.log(error.message);
-//   }
-// }
